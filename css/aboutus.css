@@ -1,0 +1,145 @@
+.mission{
+  padding: 10px;
+  width: 50%;
+  text-align: left;
+}
+
+/* .meet a {
+  text-decoration: underline;
+  color: black;
+}
+
+.meet a:hover {
+  color: #f4f4f4;
+} */
+
+h2{
+  margin-top: 20px;
+}
+
+.api{
+  padding: 10px;
+}
+.rapidapi{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section.main{
+    margin-top: 20px; margin-bottom: 30px; padding: 0;
+}
+
+section.main aside{
+    width: 33%; float: left; text-align: center;
+}
+
+section.main .content {
+  margin: 15px; 
+  background: no-repeat center top; 
+  background-size: 75px 75px; 
+  padding-top: 85px;
+  padding-right: 10px;
+}
+
+section.main aside .content p{text-align: left;}
+
+
+
+
+section.our-team{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+section.our-team aside{
+    width: 33%; float: left; text-align: center;
+}
+
+section.our-team .content {
+  margin: 15px; 
+  background: no-repeat center top; 
+  background-size: 75px 75px; 
+  padding-top: 85px;
+  padding-right: 10px;
+}
+
+section.our-team aside .content p{text-align: left;}
+
+.collapsible {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 25px;
+}
+
+/* .active, .collapsible:hover {
+  background-color: #555;
+} */
+
+.collapsible:after {
+  content: '\002B';
+  color: #000;
+  font-weight: bold;
+/*   float: right; */
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+/*   background-color: #f1f1f1; */
+}
+
+.hailey-img {
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.mikayla-img {
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.triston-img {
+  width:200px;
+  height:200px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+.clear {
+    clear: both;
+}
+
+.meet a {
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  background-color: #8d8c91;
+  color: white;
+  text-transform: uppercase;
+}
+
+.meet a:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+label{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+input {
+  display: flex;
+  flex-direction: column;
+
+}
+
+#login{
+  max-width: 1000px;
+  padding: 30px;
+}
+
+h2{
+  padding: 20px;
+}
+
+p{
+  padding-left: 20px;
+}
+
+a{
+  padding-left: 20px;
+}
+
